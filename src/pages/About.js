@@ -11,8 +11,9 @@ function About() {
 
     const loaded = () => (
         <div>
-            <h2>{about.name}</h2>
+            <h1>{about.name}</h1>
             <h3>{about.email}</h3>
+            <img className="headshot" alt="Lauren Mendoza headshot" src="https://i.imgur.com/R8oaead.jpg" height="200"/>
             <p>{about.bio}</p>
         </div>
     )

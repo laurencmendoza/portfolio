@@ -1,5 +1,7 @@
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return (
+    <p className="footer">Built with 💕 using React and coded in Visual Studio Code by yours truly.</p>
+    );
   }
   
   export default Footer;

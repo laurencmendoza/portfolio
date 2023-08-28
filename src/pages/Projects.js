@@ -19,7 +19,7 @@ function Projects(props) {
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getProjectsData(), []);
+  useEffect(() => {getProjectsData()}, []);
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
@@ -31,7 +31,7 @@ function Projects(props) {
           <button>Github</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button>Live Site</button>
         </a>
       </div>
     ));
