@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin&display=swap');
+
 * {
-  margin: 15px;
   background-color: #232946;
+}
+
+.App * {
+  margin: 20px;
+}
+.title {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.body {
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 header {
   font-size: 1.5rem;
   font-weight: bold;
+  text-align: center;
 }
 
 h1 {
@@ -17,10 +30,13 @@ p {
   line-height: 1.5;
 }
 
-.footer {
-  color: white;
-  position: absolute;
-  bottom: 30px;
+button {
+  background-color: #eebbc3;
+  color: #232946;
+  font-size: 1.25rem;
+  width: 100px;
+  border-radius: 2px;
+  border: none;
 }
 
 a {
@@ -28,8 +44,36 @@ a {
   color: white;
 }
 
+.card {
+  width: 24rem;
+}
+
+.card * {
+  background-color: #fffffe;
+}
+
+.card-img-top {
+  width: 21.5rem;
+}
+
+.card-title {
+  color: #232946;
+}
+
+.card-text {
+  color: #232946;
+}
+
+.card-link {
+  color: #232946;
+}
+
 .headshot {
   border-radius: 50%;
+}
+
+.about {
+  display: flex;
 }
 
 a:hover {
