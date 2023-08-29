@@ -23,16 +23,14 @@ function Projects(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
-    return projects.map((project) => (
+    return (<div className="projects">
+      {projects.map((project) => (
       <div className="card">
         <img src={project.image} className="card-img-top" alt={project.name} />
-        <div className="card-body">
+  
           <h5 className="card-title">{project.name}</h5>
           <p className="card-text">project description</p>
-        </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">technologies</li>
-        </ul>
+          <p className="list-group-item">technologies</p>
         <div className="card-body">
           <a href={project.git} className="card-link">
             GitHub
@@ -42,7 +40,8 @@ function Projects(props) {
           </a>
         </div>
       </div>
-    ));
+    ))};
+    </div>)
   };
 
   return projects ? loaded() : <h1>Loading...</h1>;

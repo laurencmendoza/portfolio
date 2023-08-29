@@ -44,28 +44,22 @@ a {
   color: white;
 }
 
+.projects {
+  display: flex;
+}
+
 .card {
   width: 24rem;
+  text-align: center;
 }
 
 .card * {
   background-color: #fffffe;
+  color: #232946
 }
 
 .card-img-top {
   width: 21.5rem;
-}
-
-.card-title {
-  color: #232946;
-}
-
-.card-text {
-  color: #232946;
-}
-
-.card-link {
-  color: #232946;
 }
 
 .headshot {
