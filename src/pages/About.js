@@ -10,12 +10,15 @@ function About() {
     useEffect(() => {getAboutData()}, [])
 
     const loaded = () => (
-        <div>
-            <button>GitHub</button>
-            <button>LinkedIn</button>
-            <section className="about">
-            <img className="headshot" alt="Lauren Mendoza headshot" src="https://i.imgur.com/R8oaead.jpg" height="200"/>
-            <p className="body">{about.bio}</p>
+        <div className="m-6 md:w-auto">
+            <div className="flex justify-between">
+                <button className="">GitHub</button>
+                <button className="">LinkedIn</button>
+                <button>Resume</button>
+            </div>
+            <section className="md:flex">
+                <img className="headshot h-36 w-auto" alt="Lauren Mendoza headshot" src="https://i.imgur.com/R8oaead.jpg" height="200"/>
+                <p className="body text-lg">{about.bio}</p>
             </section>
         </div>
     )

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './Projects.css'
 
 function Projects(props) {
   // create state to hold projects
@@ -23,9 +24,9 @@ function Projects(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
-    return (<div className="projects">
+    return (<div className="projects md:flex">
       {projects.map((project) => (
-      <div className="card">
+      <div className="card mb-8">
         <img src={project.image} alt={project.name} className="card-img"/>
           <h5 className="card-title">{project.name}</h5>
           <p className="card-text">{project.description}</p>

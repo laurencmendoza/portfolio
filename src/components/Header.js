@@ -15,15 +15,17 @@ function Header() {
 
     <header>
       <nav style={navStyle}>
-        <h1 className="name-nav">Lauren Mendoza</h1>
         <Link to="/">
-          <div>HOME</div>
+          <div className="name-nav">Lauren Mendoza</div>
         </Link>
         <Link to="/about">
           <div>ABOUT</div>
         </Link>
         <Link to="/projects">
           <div>PROJECTS</div>
+        </Link>
+        <Link to="/contact">
+          <div>CONTACT</div>
         </Link>
       </nav>
     </header>
