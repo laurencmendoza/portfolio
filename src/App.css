@@ -9,9 +9,6 @@
   font-family: 'Quicksand', sans-serif;
 } 
 
-* {
-  border: 1px solid red;
-}
 
 :root {
   --background: #f2f7f5;
