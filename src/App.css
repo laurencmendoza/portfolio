@@ -1,19 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
-* {
-  background-color: #232946;
-}
 
-.App * {
-  margin: 20px;
-}
-.title {
-  font-family: 'Libre Baskerville', serif;
+.App {
+  background-size: 36px 36px;
+  background-color: var(--background);
+  background-image: radial-gradient(circle, var(--dot-grid) 1px, rgba(0, 0, 0, 0) 1px);
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
 }
 
-.body {
-  font-family: 'Libre Franklin', sans-serif;
+/* * {
+  border: 1px solid red;
+} */
+
+:root {
+  --background: #f2f7f5;
+  --main-text: #00473e;
+  --p-text: #475d5b;
+  --card-bg: #fffffe;
+  --button-bg: #faae2b;
+  --button-text: #00473e;
+  --highlight: #faae2b;
+  --stroke: #00332c;
+  --dot-grid: rgba(0, 51, 44, 0.4);
+  --secondary: #ffa8ba;
+  --tertiary: #fa5246;
 }
+
+
+.name-nav {
+  font-weight: bold;
+}
+
 
 header {
   font-size: 1.5rem;
@@ -22,17 +40,17 @@ header {
 }
 
 h1 {
-  color: white;
+  color: var(--main-text);
 }
 
 p {
-  color: #b8c1ec;
+  color: var(--p-text);
   line-height: 1.5;
 }
 
 button {
-  background-color: #eebbc3;
-  color: #232946;
+  background-color: var(--button-bg);
+  color: var(--button-text);
   font-size: 1.25rem;
   width: 100px;
   border-radius: 2px;
@@ -41,25 +59,35 @@ button {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--main-text);
 }
 
 .projects {
   display: flex;
+  margin: 2rem;
+  gap: 2rem;
 }
 
 .card {
-  width: 24rem;
+  width: 22rem;
   text-align: center;
+  background-color: var(--card-bg);
+  border: 3px solid var(--stroke);
 }
 
 .card * {
-  background-color: #fffffe;
-  color: #232946
+  color: var(--p-text);
+  padding: 1rem;
 }
 
-.card-img-top {
-  width: 21.5rem;
+.card-img {
+  padding: 0;
+  border-radius: 3px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: var(--main-text)
 }
 
 .headshot {
@@ -71,6 +99,12 @@ a {
 }
 
 a:hover {
-  color: #b8c1ec;
+  color: var(--secondary);
 }
+
+
 /* credit to https://www.happyhues.co/palettes/12 for color palette */
+/* and to https://gus.biz/ for the idea */
+/* and to https://stackoverflow.com/questions/3540194/how-to-make-a-grid-like-graph-paper-grid-with-just-css for the css for grid */
+/* possible highlight animation https://codepen.io/alvarotrigo/pen/WNdeKQJ  */
+/* another possible highlight animation simple https://codepen.io/alvarotrigo/pen/jOYNKKY  */

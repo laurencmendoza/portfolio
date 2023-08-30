@@ -26,11 +26,10 @@ function Projects(props) {
     return (<div className="projects">
       {projects.map((project) => (
       <div className="card">
-        <img src={project.image} className="card-img-top" alt={project.name} />
-  
+        <img src={project.image} alt={project.name} className="card-img"/>
           <h5 className="card-title">{project.name}</h5>
-          <p className="card-text">project description</p>
-          <p className="list-group-item">technologies</p>
+          <p className="card-text">{project.description}</p>
+          <p className="list-group-item">{project.technologies}</p>
         <div className="card-body">
           <a href={project.git} className="card-link">
             GitHub
@@ -40,7 +39,7 @@ function Projects(props) {
           </a>
         </div>
       </div>
-    ))};
+    ))}
     </div>)
   };
 

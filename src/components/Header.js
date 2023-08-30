@@ -14,8 +14,8 @@ function Header() {
   return (
 
     <header>
-      <h1 className="title">Lauren Mendoza</h1>
-      <nav style={navStyle} className="body">
+      <nav style={navStyle}>
+        <h1 className="name-nav">Lauren Mendoza</h1>
         <Link to="/">
           <div>HOME</div>
         </Link>
