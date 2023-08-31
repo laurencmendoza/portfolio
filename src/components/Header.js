@@ -24,9 +24,6 @@ function Header() {
         <Link to="/projects">
           <div>PROJECTS</div>
         </Link>
-        <Link to="/contact">
-          <div>CONTACT</div>
-        </Link>
       </nav>
     </header>
   );

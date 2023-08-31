@@ -1,7 +1,6 @@
 [
     {
         "name": "Felix Says (Simon)",
-        "description": "A game based on the class memory game 'Simon'. 'Felix Says' features Felix the black cat, who meows the sequence for the player to repeat on their own 'Simon' game look-alike.",
         "technologies": "HTML, CSS, and JavaScript", 
         "live": "https://laurencmendoza.github.io/felix-says-project-one/",
         "git": "https://github.com/laurencmendoza/felix-says-project-one",
@@ -9,7 +8,6 @@
     },
     {
         "name": "Theme Generator",
-        "description": "A full-stack full-CRUD application that allows users to generate styles for their applications using just a description. 'Theme Generator' utilizes OpenAI to generate styles and allows users to preview styles and use the generated properties for their own applications. ",
         "technologies": "MongoDB, Express, Node.js, OpenAI, Passport", 
         "live": "https://alella-theme-generator-49b5c35126f2.herokuapp.com/",
         "git": "https://github.com/laurencmendoza/theme-generator",

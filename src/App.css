@@ -5,13 +5,14 @@
   background-size: 36px 36px;
   background-color: var(--background);
   background-image: radial-gradient(circle, var(--dot-grid) 1px, rgba(0, 0, 0, 0) 1px);
-  height: 100vh;
   font-family: 'Quicksand', sans-serif;
-} */
+  height: 200vh;
 
-* {
+} 
+
+/* * {
   border: 1px solid red;
-}
+} */
 
 :root {
   --background: #f2f7f5;
@@ -78,3 +79,4 @@ a:hover {
 /* and to https://stackoverflow.com/questions/3540194/how-to-make-a-grid-like-graph-paper-grid-with-just-css for the css for grid */
 /* possible highlight animation https://codepen.io/alvarotrigo/pen/WNdeKQJ  */
 /* another possible highlight animation simple https://codepen.io/alvarotrigo/pen/jOYNKKY  */
+/* https://codepen.io/aitchiss/pen/QWKmPqx for the paper with tape css */

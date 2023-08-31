@@ -29,7 +29,6 @@ function Projects(props) {
       <div className="card mb-8">
         <img src={project.image} alt={project.name} className="card-img"/>
           <h5 className="card-title">{project.name}</h5>
-          <p className="card-text">{project.description}</p>
           <p className="list-group-item">{project.technologies}</p>
         <div className="card-body">
           <a href={project.git} className="card-link">
