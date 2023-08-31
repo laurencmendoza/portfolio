@@ -9,6 +9,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: 36px 36px;
+  background-color: var(--background);
+  background-image: radial-gradient(circle, var(--dot-grid) 1px, rgba(0, 0, 0, 0) 1px);
 }
 
 code {

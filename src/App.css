@@ -6,7 +6,6 @@
   background-color: var(--background);
   background-image: radial-gradient(circle, var(--dot-grid) 1px, rgba(0, 0, 0, 0) 1px);
   font-family: 'Quicksand', sans-serif;
-  height: 200vh;
 
 } 
 
