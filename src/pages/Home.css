@@ -6,13 +6,16 @@
     --tape-edge-gray: #b7b49d;
     --stroke: #00332c;
 }
-
+.home {
+    width: 1000px;
+    margin: 0 auto;
+}
 .pink {
     --paper-color: var(--pink);
     position: relative;
     background: var(--pink);
-    width: 300px;
     height: 300px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
