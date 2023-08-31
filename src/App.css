@@ -65,10 +65,6 @@ a {
   border-radius: 50%;
 }
 
-/* .about {
-  display: flex;
-} */
-
 a:hover {
   color: var(--secondary);
 }
