@@ -5,7 +5,7 @@ function Header() {
 
   const navStyle = {
     display: "flex",
-    justifyContent: "space-around",
+    justifyContent: "space-evenly",
     padding: ".5rem",
     width: "90%",
     margin: "auto",
@@ -14,9 +14,9 @@ function Header() {
   return (
 
     <header>
-      <nav style={navStyle}>
+      <nav style={navStyle} className="sm:text-[2.5rem] 2xl:text-[4rem]">
         <Link to="/">
-          <div className="name-nav">Lauren Mendoza</div>
+          <div>HOME</div>
         </Link>
         <Link to="/about">
           <div>ABOUT</div>

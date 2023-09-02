@@ -52,10 +52,6 @@ a {
   color: var(--main-text);
 }
 
-.name-nav {
-  font-weight: bold;
-}
-
 a:hover {
   color: var(--secondary);
 }
