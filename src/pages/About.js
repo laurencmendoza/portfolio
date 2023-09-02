@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Footer from "../components/Footer";
 
 function About() {
     const [about, setAbout] = useState(null);
@@ -10,16 +11,12 @@ function About() {
     useEffect(() => {getAboutData()}, [])
 
     const loaded = () => (
-        <div className="mx-10 md:mx-auto max-w-screen-md">
-            <div className="flex">
-                <button className="">GitHub</button>
-                <button className="mx-8">LinkedIn</button>
-                <button>Resume</button>
-            </div>
-            <section className="md:flex justify-center my-auto">
-                <img className="headshot h-48 w-auto" alt="Lauren Mendoza headshot" src="https://i.imgur.com/R8oaead.jpg" height="200"/>
-                <p className="body text-xl/8 md:mx-10 ">{about.bio}</p>
+        <div className="md:my-14 mx-10 md:mx-auto max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
+            <section className="md:flex my-auto">
+                <img className="headshot mx-auto my-4 h-48 w-auto justify-center" alt="Lauren Mendoza headshot" src="https://i.imgur.com/R8oaead.jpg" height="200"/>
+                <p className="body text-[1.5rem] md:mx-10 justify-center ">{about.bio}</p>
             </section>
+            <Footer/>
         </div>
     )
 

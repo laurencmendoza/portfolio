@@ -14,8 +14,8 @@
   --main-text: #00473e;
   --p-text: #475d5b;
   --card-bg: #fffffe;
-  --button-bg: #faae2b;
-  --button-text: #00473e;
+  --button-bg: #00473e;
+  --button-text: #fffffe;
   --highlight: #faae2b;
   --stroke: #00332c;
   --dot-grid: rgba(0, 51, 44, 0.4);
@@ -47,12 +47,17 @@ button {
   border: none;
 }
 
-a {
+button:hover {
+  background-color: var(--p-text);
+  color: black;
+}
+
+nav > a {
   text-decoration: none;
   color: var(--main-text);
 }
 
-a:hover {
+nav > a:hover {
   color: var(--secondary);
 }
 
