@@ -43,7 +43,7 @@ function Projects(props) {
     </div>)
   };
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects ? loaded() : <h1 className="text-center text-xl">Loading...</h1>;
 }
 
 export default Projects;
