@@ -14,7 +14,7 @@ function Header() {
   return (
 
     <header>
-      <nav style={navStyle} className="sm:text-[2.5rem] 2xl:text-[4rem]">
+      <nav style={navStyle} className="sm:text-[2.5rem] xl:text-[3.25rem]">
         <Link to="/">
           <div>HOME</div>
         </Link>

@@ -27,3 +27,7 @@
     font-weight: bold;
     color: var(--main-text)
 }
+
+.card-body>a:hover {
+    color: var(--secondary)
+}
