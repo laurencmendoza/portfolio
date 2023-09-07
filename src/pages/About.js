@@ -10,7 +10,7 @@ function About() {
     useEffect(() => {getAboutData()}, [])
 
     const loaded = () => (
-        <div className="my-[3rem] md:my-14 xl:my-8 mx-10 md:mx-auto max-w-screen-md xl:max-w-screen-lg md:flex my-auto">
+        <div className="my-[3.25rem] md:my-14 xl:my-8 mx-10 md:mx-auto max-w-screen-md xl:max-w-screen-lg md:flex my-auto">
             <div className="my-8 mx-auto md:my-0 max-w-[240px] bg-white rounded drop-shadow-md h-[320px]">
                 <img 
                 className="p-4 mx-auto"
