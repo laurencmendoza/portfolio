@@ -12,6 +12,13 @@
         "live": "https://alella-theme-generator-49b5c35126f2.herokuapp.com/",
         "git": "https://github.com/laurencmendoza/theme-generator",
         "image": "https://i.imgur.com/Nug3ViR.png"
+    }, 
+    {
+        "name": "Spotify Metrics", 
+        "technologies": "React, Express, Tailwind, Spotify's Web API", 
+        "live": "https://my-metrics-app-743645bb0090.herokuapp.com/", 
+        "git": "https://github.com/laurencmendoza/spotify-metrics", 
+        "image": "https://i.imgur.com/bN4KQpX.png"
     }
 ]
 
