@@ -4,7 +4,7 @@ My name is Lauren Mendoza, and I'm a software developer and an educator focused 
 
 ## Deployed Application
 
-[Here](https://bright-choux-2c55a3.netlify.app/) is a link to my portfolio!
+[Here](https://laurencmendoza.netlify.app/) is a link to my portfolio!
 
 ## Technologies Used 
 
