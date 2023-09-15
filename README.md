@@ -4,7 +4,7 @@ My name is Lauren Mendoza, and I'm a software developer and an educator focused 
 
 ## Deployed Application
 
-[Here](https://laurencmendoza.netlify.app/) is a link to my portfolio!
+### [Click here to see my portfolio!](https://laurencmendoza.netlify.app/)
 
 ## Technologies Used 
 
