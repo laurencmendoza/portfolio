@@ -19,6 +19,7 @@ My name is Lauren Mendoza, and I'm a software developer and an educator focused 
 - [Paper with sellotaped corners](https://codepen.io/aitchiss/pen/QWKmPqx) - CSS for the tape on the home page
 - [Happy Hues](https://www.happyhues.co/palettes/5)- for the color palette
 - [Tailwind Documentation](https://tailwindcss.com/docs/installation)
+- [CSS Loaders](https://cssloaders.github.io/)
 
 ## Inspiration
 
@@ -29,4 +30,3 @@ My name is Lauren Mendoza, and I'm a software developer and an educator focused 
 1. Add my developer skills to the about page
 2. Add a highlight animation for the navigation bar similar to [this resource](https://codepen.io/alvarotrigo/pen/jOYNKKY)
 3. Reformat the projects page to fit with the paper theme
-4. Add animations when the page loads to fit with the paper theme
