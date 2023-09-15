@@ -2,7 +2,7 @@ import gitHubSticker from "./github-sticker.png"
 
 export default function Footer(props) {
     return (
-      <footer className="max-w-screen-md mx-auto mt-12">
+      <footer className="max-w-screen-md mx-auto mb-0">
         <div className="flex flex-wrap justify-evenly mt-9">
             <a href="https://github.com/laurencmendoza" target="_blank">
               <img className="my-8 mx-2 hover:scale-105" src={gitHubSticker} width="300"/>

@@ -1,4 +1,5 @@
 import './Home.css'
+import Footer from '../components/Footer/Footer';
 
 function Home(props) {
     return (
@@ -14,6 +15,7 @@ function Home(props) {
           <p className="text-3xl 2xl:text-4xl">& educator</p>
           <div className="tape-section"></div>
         </div>
+        <Footer/>
       </div>
     );
 }

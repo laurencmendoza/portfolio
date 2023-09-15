@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import './Projects.css'
+import Footer from "../components/Footer/Footer";
+import Loading from "../components/Loading";
 
 function Projects(props) {
   // create state to hold projects
@@ -40,10 +42,16 @@ function Projects(props) {
         </div>
       </div>
     ))}
+      <Footer/>
     </div>)
   };
 
-  return projects ? loaded() : <h1 className="text-center text-xl">Loading...</h1>;
+  const loading = () => (
+    <div className="ml-[50vw] absolute">
+        <Loading/>
+    </div>
+  )
+  return projects ? loaded() : loading();
 }
 
 export default Projects;

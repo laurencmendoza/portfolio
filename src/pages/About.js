@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Loading from "../components/Loading";
+import Footer from "../components/Footer/Footer";
 
 function About() {
     const [about, setAbout] = useState(null);
@@ -10,6 +12,7 @@ function About() {
     useEffect(() => {getAboutData()}, [])
 
     const loaded = () => (
+        <div>
         <div className="my-[3.25rem] md:my-14 xl:my-8 mx-10 md:mx-auto max-w-screen-md xl:max-w-screen-lg md:flex my-auto">
             <div className="my-8 mx-auto md:my-0 max-w-[240px] bg-white rounded drop-shadow-md h-[320px]">
                 <img 
@@ -19,9 +22,16 @@ function About() {
             </div>
             <p className="body text-[1.5rem] md:mx-10 justify-center ">{about.bio}</p>
         </div>
+        <Footer/>
+        </div>
     )
 
-    return about ? loaded() : <h1 className="text-center text-xl">Loading... </h1>;
+    const loading = () => (
+        <div className="ml-[50vw] absolute">
+            <Loading/>
+        </div>
+    )
+    return about ? loaded() : loading();
 }
 
 export default About;

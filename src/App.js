@@ -2,7 +2,6 @@ import "./App.css";
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";
-import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 
 // IMPORT PAGES
@@ -21,7 +20,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
