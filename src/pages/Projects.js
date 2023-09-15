@@ -27,22 +27,27 @@ function Projects(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return (
-    <div>
-      <div className="projects md:flex md:flex-wrap">
+    <div className="mt-6 mx-6">
+      <div className="projects flex flex-wrap">
         {projects.map((project) => (
-        <div className="card mb-8 mx-auto md:mx-[1rem]">
-          <img src={project.image} alt={project.name} className="card-img"/>
-            <p className="card-title">{project.name}</p>
-            <p className="list-group-item text-xl">{project.technologies}</p>
-          <div className="card-body">
-            <a href={project.git} className="card-link text-xl">
-              GitHub
-            </a>
-            <a href={project.live} className="card-link text-xl">
-              Live Site
-            </a>
+          <>
+          <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]">
+            <img 
+            className="my-6 mx-auto w-[16rem] border-[1px] border-[#f5f5f5]"
+            alt="Lauren Mendoza headshot" src={project.image}/>
+            <p className="font-bold text-center text-3xl">{project.name}</p>
+            <p className=" text-center list-group-item text-xl my-4 px-4">{project.technologies}</p>
+            <div className="flex justify-center">
+              <a href={project.git} className="text-2xl mx-4 mb-6 card-link">
+                GitHub
+              </a>
+              <a href={project.live} className="text-2xl mx-4 mb-6 card-link">
+                Live Site
+              </a>
+            </div>
           </div>
-        </div>
+        
+        </>
       ))}
       </div>
       <Footer/>
