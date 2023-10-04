@@ -19,6 +19,13 @@
         "live": "https://my-metrics-app-743645bb0090.herokuapp.com/", 
         "git": "https://github.com/laurencmendoza/spotify-metrics", 
         "image": "https://i.imgur.com/bN4KQpX.png"
+    }, 
+    {
+        "name": "Wear It Out", 
+        "technologies": "Django, Tailwind, Amazon S3, Visual Crossing Weather API", 
+        "live": "https://wear-it-out-e8cbd3eb7d9e.herokuapp.com/", 
+        "git": "https://github.com/laurencmendoza/wear-it-out", 
+        "image": "https://i.imgur.com/1GqcIAo.png"
     }
 ]
 
