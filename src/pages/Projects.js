@@ -33,15 +33,15 @@ function Projects(props) {
           <>
           <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]">
             <img 
-            className="my-6 mx-auto w-[16rem] border-[1px] border-[#f5f5f5]"
+            className="my-6 mx-auto w-[16rem] h-[12rem] border-[1px] border-[#f5f5f5]"
             alt="Lauren Mendoza headshot" src={project.image}/>
-            <p className="font-bold text-center text-3xl">{project.name}</p>
+            <p className="font-bold text-center text-2xl">{project.name}</p>
             <p className=" text-center list-group-item text-xl my-4 px-4">{project.technologies}</p>
             <div className="flex justify-center">
-              <a href={project.git} className="text-2xl mx-4 mb-6 card-link">
+              <a href={project.git} className="text-xl mx-4 mb-6 card-link">
                 GitHub
               </a>
-              <a href={project.live} className="text-2xl mx-4 mb-6 card-link">
+              <a href={project.live} className="text-xl mx-4 mb-6 card-link">
                 Live Site
               </a>
             </div>
