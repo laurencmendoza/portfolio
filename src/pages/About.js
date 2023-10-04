@@ -20,7 +20,7 @@ function About() {
                 alt="Lauren Mendoza headshot" src="https://i.imgur.com/R8oaead.jpg"/>
                 <p className="text-center text-3xl py-5">Lauren Mendoza</p>
             </div>
-            <p className="body text-[1.5rem] md:mx-10 justify-center ">{about.bio}</p>
+            <p className="pt-4 md:pt-0 body text-[1.5rem] md:mx-10 justify-center ">{about.bio}</p>
         </div>
         <Footer/>
         </div>
