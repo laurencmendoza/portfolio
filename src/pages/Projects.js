@@ -28,7 +28,7 @@ function Projects(props) {
   const loaded = () => {
     return (
     <div className="mt-6 mx-6">
-      <div className="projects flex flex-wrap">
+      <div className="projects flex flex-wrap xl:w-max xl:mx-auto">
         {projects.map((project) => (
           <>
           <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]">
