@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 
-
 .App {
   font-family: 'Gaegu', sans-serif;
 } 
-
-/* * {
-  border: 1px solid red;
-} */
 
 :root {
   --background: #f2f7f5;
