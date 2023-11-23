@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import './Projects.css'
 import Footer from "../components/Footer/Footer";
 import Loading from "../components/Loading";
 
-function Projects(props) {
+function Projects() {
   // create state to hold projects
   const [projects, setProjects] = useState(null);
 
@@ -35,10 +34,10 @@ function Projects(props) {
             <p className="font-bold text-center text-2xl">{project.name}</p>
             <p className=" text-center list-group-item text-xl my-4 px-4">{project.technologies}</p>
             <div className="flex justify-center">
-              <a href={project.git} className="text-xl mx-4 mb-6 card-link" target="_blank">
+              <a href={project.git} className="text-xl mx-4 mb-6 text-[--main-text] hover:text-[--secondary]" target="_blank">
                 GitHub
               </a>
-              <a href={project.live} className="text-xl mx-4 mb-6 card-link" target="_blank">
+              <a href={project.live} className="text-xl mx-4 mb-6 card-link text-[--main-text] hover:text-[--secondary]" target="_blank">
                 Live Site
               </a>
             </div>

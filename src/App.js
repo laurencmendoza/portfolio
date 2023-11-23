@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header className=""/>
+      <Header/>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

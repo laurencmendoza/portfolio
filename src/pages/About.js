@@ -4,11 +4,13 @@ import Footer from "../components/Footer/Footer";
 
 function About() {
     const [about, setAbout] = useState(null);
+
     const getAboutData = async() => {
         const response = await fetch('./about.json');
         const data = await response.json();
         setAbout(data)
     }
+
     useEffect(() => {getAboutData()}, [])
 
     const loaded = () => (
@@ -29,6 +31,7 @@ function About() {
             <Loading/>
         </div>
     )
+    
     return about ? loaded() : loading();
 }
 
