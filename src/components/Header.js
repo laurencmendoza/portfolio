@@ -12,20 +12,19 @@ function Header() {
   };
 
   return (
-
-    <header>
-      <nav style={navStyle} className="md:text-[2.5rem] xl:text-[3.25rem]">
+    <header className="text-[1.5rem] font-bold text-center">
+      <nav style={navStyle} className="md:text-[2.5rem] xl:text-[3.25rem] no-underline text-[--main-text]">
         <Link to="/">
-          <div>HOME</div>
+          <div className="hover:text-[--secondary]">HOME</div>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <div className="hover:text-[--secondary]">ABOUT</div>
         </Link>
         <Link to="/skills">
-          <div>SKILLS</div>
+          <div className="hover:text-[--secondary]">SKILLS</div>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <div className="hover:text-[--secondary]">PROJECTS</div>
         </Link>
       </nav>
     </header>
