@@ -18,40 +18,7 @@
   --tertiary: #fa5246;
 }
 
-header {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-} 
-
-h1 {
-  color: var(--main-text);
-}
-
 p {
   color: var(--p-text);
   line-height: 1.5;
-}
-
-button {
-  background-color: var(--button-bg);
-  color: var(--button-text);
-  font-size: 1.25rem;
-  width: 100px;
-  border-radius: 2px;
-  border: none;
-}
-
-button:hover {
-  background-color: var(--p-text);
-  color: black;
-}
-
-nav > a {
-  text-decoration: none;
-  color: var(--main-text);
-}
-
-nav > a:hover {
-  color: var(--secondary);
 }

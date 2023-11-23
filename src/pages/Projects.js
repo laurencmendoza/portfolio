@@ -30,11 +30,8 @@ function Projects(props) {
     <div className="mt-6 mx-6">
       <div className="projects flex flex-wrap xl:w-max xl:mx-auto">
         {projects.map((project) => (
-          <>
           <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]">
-            <img 
-            className="my-6 mx-auto w-[16rem] h-[12rem] border-[1px] border-[#f5f5f5]"
-            alt="Lauren Mendoza headshot" src={project.image}/>
+            <img className="my-6 mx-auto w-[16rem] h-[12rem] border-[1px] border-[#f5f5f5]" alt="Lauren Mendoza headshot" src={project.image}/>
             <p className="font-bold text-center text-2xl">{project.name}</p>
             <p className=" text-center list-group-item text-xl my-4 px-4">{project.technologies}</p>
             <div className="flex justify-center">
@@ -46,8 +43,6 @@ function Projects(props) {
               </a>
             </div>
           </div>
-        
-        </>
       ))}
       </div>
       <Footer/>
