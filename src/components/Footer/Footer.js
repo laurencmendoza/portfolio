@@ -5,13 +5,13 @@ export default function Footer(props) {
       <footer className="max-w-screen-md mx-auto mb-0">
         <div className="flex flex-wrap justify-evenly mt-9">
             <a href="https://github.com/laurencmendoza" target="_blank">
-              <img className="my-8 mx-2 hover:scale-105" src={gitHubSticker} width="300"/>
+              <img className="my-8 mx-2 hover:scale-105" alt="GitHub" src={gitHubSticker} width="300"/>
             </a>
             <a href="https://www.linkedin.com/in/lauren-c-mendoza/" target="_blank">
-              <img className="my-8 mx-2 border-white border-8 rounded-full drop-shadow-md hover:scale-105" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" width="140"/>
+              <img className="my-8 mx-2 border-white border-8 rounded-full drop-shadow-md hover:scale-105" alt="LinkedIn" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" width="140"/>
             </a>
             <a href="https://drive.google.com/file/d/1zu-NA0EGBrC_dALJ9FoIf4jp7BAynaBP/view?usp=sharing" target="_blank">
-              <img className="my-8 mx-2 border-white border-8 rounded-3xl bg-white drop-shadow-md hover:scale-105" src="https://cdn-icons-png.flaticon.com/128/5677/5677656.png" width="140"/>
+              <img className="my-8 mx-2 border-white border-8 rounded-3xl bg-white drop-shadow-md hover:scale-105" src="https://cdn-icons-png.flaticon.com/128/5677/5677656.png" width="140" alt="Resumé"/>
             </a>
         </div>
       </footer>

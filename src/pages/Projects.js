@@ -32,8 +32,8 @@ function Projects() {
     <div className="mt-6 mx-6">
       <div className="projects flex flex-wrap justify-center">
         {projects.map((project) => (
-          <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]">
-            <img className="my-6 mx-auto w-[16rem] h-[12rem] border-[1px] border-[#f5f5f5]" alt="Lauren Mendoza headshot" src={project.image}/>
+          <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]" key={project.name}>
+            <img className="my-6 mx-auto w-[16rem] h-[12rem] border-[1px] border-[#f5f5f5]" alt={project.name} src={project.image}/>
             <h1 className="font-bold text-center text-2xl text-[--main-text]">{project.name}</h1>
             <p className=" text-center list-group-item text-xl my-4 px-4">{project.technologies}</p>
             <div className="flex justify-center">
