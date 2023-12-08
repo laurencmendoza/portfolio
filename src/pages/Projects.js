@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Footer from "../components/Footer/Footer";
 import Loading from "../components/Loading";
+import useDocumentTitle from '../useDocumentTitle'
 
 function Projects() {
   // create state to hold projects
@@ -23,15 +24,17 @@ function Projects() {
     getProjectsData();
   }, []);
 
+  useDocumentTitle('Projects - Lauren Mendoza Portfolio')
+
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return (
     <div className="mt-6 mx-6">
-      <div className="projects flex flex-wrap xl:w-max xl:mx-auto">
+      <div className="projects flex flex-wrap justify-center">
         {projects.map((project) => (
           <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]">
             <img className="my-6 mx-auto w-[16rem] h-[12rem] border-[1px] border-[#f5f5f5]" alt="Lauren Mendoza headshot" src={project.image}/>
-            <p className="font-bold text-center text-2xl">{project.name}</p>
+            <h1 className="font-bold text-center text-2xl text-[--main-text]">{project.name}</h1>
             <p className=" text-center list-group-item text-xl my-4 px-4">{project.technologies}</p>
             <div className="flex justify-center">
               <a href={project.git} className="text-xl mx-4 mb-6 text-[--main-text] hover:text-[--secondary]" target="_blank">

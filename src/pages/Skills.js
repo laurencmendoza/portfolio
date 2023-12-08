@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Loading from "../components/Loading";
 import Footer from "../components/Footer/Footer";
+import useDocumentTitle from '../useDocumentTitle'
 
 function Skills() {
     const [skills, setSkills] = useState(null);
@@ -12,6 +13,8 @@ function Skills() {
     }
 
     useEffect(() => {getSkillsData()}, [])
+
+    useDocumentTitle('Skills - Lauren Mendoza Portfolio')
 
     const loaded = () => (
         <div>
