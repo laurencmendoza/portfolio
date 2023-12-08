@@ -23,14 +23,14 @@ function Projects() {
   useEffect(() => {
     getProjectsData();
   }, []);
-  
+
   useDocumentTitle('Projects - Lauren Mendoza Portfolio')
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return (
     <div className="mt-6 mx-6">
-      <div className="projects flex flex-wrap xl:w-max xl:mx-auto">
+      <div className="projects flex flex-wrap justify-center">
         {projects.map((project) => (
           <div className="mx-auto my-[1rem] bg-white rounded drop-shadow-md w-[19rem] md:m-[1.5rem]">
             <img className="my-6 mx-auto w-[16rem] h-[12rem] border-[1px] border-[#f5f5f5]" alt="Lauren Mendoza headshot" src={project.image}/>
