@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Loading from "../components/Loading";
 import Footer from "../components/Footer/Footer";
+import useDocumentTitle from '../useDocumentTitle'
 
 function About() {
     const [about, setAbout] = useState(null);
@@ -12,6 +13,8 @@ function About() {
     }
 
     useEffect(() => {getAboutData()}, [])
+    
+    useDocumentTitle('About - Lauren Mendoza Portfolio')
 
     const loaded = () => (
         <div aria-live="polite" aria-busy="false">

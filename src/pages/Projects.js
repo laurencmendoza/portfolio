@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Footer from "../components/Footer/Footer";
 import Loading from "../components/Loading";
+import useDocumentTitle from '../useDocumentTitle'
 
 function Projects() {
   // create state to hold projects
@@ -22,6 +23,8 @@ function Projects() {
   useEffect(() => {
     getProjectsData();
   }, []);
+  
+  useDocumentTitle('Projects - Lauren Mendoza Portfolio')
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
