@@ -1,4 +1,5 @@
 import './Home.css'
+
 import Footer from '../components/Footer/Footer';
 import useDocumentTitle from '../useDocumentTitle'
 
