@@ -33,6 +33,13 @@
         "live": "https://jolly-medovik-2b8595.netlify.app/", 
         "git": "https://github.com/ReginaldLeandre/PokemonProjFrontend", 
         "image": "https://i.imgur.com/je7pQUT.png"
+    }, 
+    {
+        "name": "4 x 4 Categories", 
+        "technologies": "React, TailwindCSS", 
+        "live": "https://4-by-4-categories.netlify.app/", 
+        "git": "https://github.com/laurencmendoza/4-by-4-categories", 
+        "image": "https://i.imgur.com/oNKToqN.png?1"
     }
 ]
 
