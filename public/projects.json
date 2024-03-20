@@ -40,6 +40,13 @@
         "live": "https://4-by-4-categories.netlify.app/", 
         "git": "https://github.com/laurencmendoza/4-by-4-categories", 
         "image": "https://i.imgur.com/oNKToqN.png?1"
+    }, 
+    {
+        "name": "Accessibility Quiz", 
+        "technologies": "React, TailwindCSS", 
+        "live": "https://react-accessibility-quiz.netlify.app/",
+        "git": "https://github.com/laurencmendoza/accessibility-quiz", 
+        "image": "https://i.imgur.com/ZUgKNbv.png"
     }
 ]
 
